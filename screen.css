@@ -11,16 +11,36 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
+  margin: 0.25;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
 
-h2{
+
+h1{
   font-size:4em;
-  color: #20cc1e;
+  color: #003699;
+}
+
+h2{
+  font-size:2em;
+  color:#004d00;
+}
+
+h3{
+  font-size:1.5em;
+  color:#004d00;
+}
+
+h4{
+  font-size:2em;
+  color:#4d0066;
+}
+
+body{
+  background-color: #9999ff
 }
 
 body {
@@ -61,3 +81,16 @@ a {
 
 #main {
   padding: 50px; }
+
+  .project {
+  border 1px solid blue;
+  padding 20px;
+  }
+
+  .project img {
+  width: 200px;
+  height: 200px;
+  }
+
+  .project h2 {
+  font-size: 1.5em;
